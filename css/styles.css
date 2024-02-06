@@ -50,6 +50,28 @@ img {
   color: #777777;
 }
 
+.about-section {
+  padding: 160px 20px;
+}
+
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.about-section h2 {
+  font-family: var(--default-font-family);
+  font-size: 20px;
+}
+
+.about-section-content {
+  margin: 30px;
+}
+
+.about-section img {
+  margin-top: 20px;
+}
+
 .btn-branding {
   font-size: 18px;
   line-height: 27px;
@@ -109,5 +131,15 @@ img {
   .project-discription {
     text-align: center;
     padding: 40px;
+  }
+
+  .about-section {
+    text-align: center;
+    padding: 40px;
+  }
+
+  .about-section h1 {
+    font-size: 52px;
+    line-height: 60px;
   }
 }
