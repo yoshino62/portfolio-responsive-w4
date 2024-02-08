@@ -50,25 +50,25 @@ img {
   color: #777777;
 }
 
-.about-section {
+.content-container {
   padding: 160px 20px;
 }
 
-.about-section h1 {
+.content-container h1 {
   font-size: 64px;
   line-height: 80px;
 }
 
-.about-section h2 {
+.content-container h2 {
   font-family: var(--default-font-family);
   font-size: 20px;
 }
 
-.about-section-content {
+.content {
   margin: 30px;
 }
 
-.about-section img {
+.content-container img {
   margin-top: 20px;
 }
 
@@ -133,12 +133,12 @@ img {
     padding: 40px;
   }
 
-  .about-section {
+  .content-container {
     text-align: center;
     padding: 40px;
   }
 
-  .about-section h1 {
+  .content-container h1 {
     font-size: 52px;
     line-height: 60px;
   }
