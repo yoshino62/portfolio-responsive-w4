@@ -32,6 +32,34 @@ img {
   margin-top: 140px;
 }
 
+nav {
+  padding: 20px;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 40px;
+  margin-left: 15px;
+}
+
+nav a {
+  color: #272142;
+  opacity: 70%;
+  text-decoration: none;
+  transition: all 150ms ease-in-out;
+}
+
+nav li.active a,
+nav a:hover {
+  color: var(--branding-color);
+}
+
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
@@ -149,6 +177,11 @@ img {
   text-decoration: underline;
 }
 
+.logo {
+  max-height: 40px;
+  margin: 0;
+}
+
 @media (max-width: 960px) {
   h1 {
     font-size: 38px;
@@ -157,6 +190,14 @@ img {
 
   h2 {
     font-size: 42px;
+  }
+
+  nav li {
+    margin-left: 10px;
+  }
+
+  nav a {
+    font-size: 14px;
   }
 
   .hero {
