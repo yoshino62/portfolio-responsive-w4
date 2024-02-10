@@ -51,7 +51,7 @@ nav li {
 nav a {
   color: #272142;
   text-decoration: none;
-  transition: all 150ms ease-in-out;
+  transition: all 250ms ease-in-out;
 }
 
 nav li.active a,
@@ -62,7 +62,7 @@ nav a:hover {
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 100px 20px;
 }
 
 .hero p {
@@ -78,7 +78,7 @@ nav a:hover {
 }
 
 .content-container {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 
 .content h1 {
@@ -116,6 +116,7 @@ nav a:hover {
   color: #fff;
   border-radius: 10px;
   padding: 15px 30px;
+  transition: all 250ms ease-in-out;
 }
 
 .btn-branding:hover {
@@ -131,6 +132,7 @@ nav a:hover {
   color: var(--branding-color);
   border-radius: 10px;
   padding: 15px 30px;
+  transition: all 250ms ease-in-out;
 }
 
 .btn-branding-outline:hover {
@@ -170,7 +172,7 @@ nav a:hover {
 .contact-info {
   color: #000;
   text-decoration: none;
-  transition: all 150ms ease-in-out;
+  transition: all 250ms ease-in-out;
 }
 
 .contact-info:hover {
@@ -227,6 +229,10 @@ footer .social-links a {
 footer .social-links a:hover {
   color: var(--secondary-color);
   background-color: var(--branding-color);
+}
+
+footer a {
+  color: var(--branding-color);
 }
 
 @media (max-width: 960px) {
